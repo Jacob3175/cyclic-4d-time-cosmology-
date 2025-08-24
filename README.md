@@ -16,8 +16,8 @@ controls both the start of expansion (bounce) and the end (turnaround).
 - `figures/plot_a_tau.png` – cyclic scale factor example.
 - `figures/plot_H2.png` – effective Friedmann showing bounce and turnaround (toy).
 
-## Suggested License
-Recommend **CC BY 4.0** for maximal visibility + required attribution.
+## License
+**CC BY 4.0**
 
 ## How to cite
 (If you connect this repo to Zenodo later, add the DOI here.)
