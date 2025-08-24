@@ -1,4 +1,3 @@
-
 \documentclass[12pt]{article}
 \usepackage{amsmath, amssymb}
 \usepackage{geometry}
@@ -7,46 +6,64 @@
 \geometry{margin=1in}
 
 \title{A Cyclic 4D-Time Universe Model: Bounce, Expansion, and Turnaround Controlled by Closed Time Geometry}
-\author{Jacob Powell}
-\date{\08/23/2025}
+\author{Jacob L. Powell}
+\date{\today}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-We propose a toy cosmological framework in which the fourth dimension (time) is not infinite,
-but cyclic and bounded. This closed time geometry forces both the initiation of cosmic expansion
-(the bounce) and its termination (the turnaround), eliminating the need for external triggers.
-We sketch an effective Friedmann equation with Loop Quantum Cosmology--inspired quantum corrections
-to avoid singularities and show how a large-$a$ turnaround can be incorporated via curvature or an
-effective negative cosmological term. The bounce is interpreted as a single-frame quantum state,
-linking emergent spacetime ideas to cyclic cosmology.
+We propose a conceptual cosmological framework in which the fourth dimension---time---is 
+not infinite, but cyclic and bounded. This closed time geometry provides a natural mechanism 
+for both the initiation of cosmic expansion (the bounce) and its termination (the turnaround), 
+removing the need for external triggers. We sketch an effective Friedmann equation, inspired by 
+Loop Quantum Cosmology (LQC) \cite{Ashtekar2006,Bojowald2001}, that incorporates quantum 
+corrections to avoid singularities, and show how a large-$a$ turnaround can arise through curvature 
+or an effective negative cosmological term. The bounce is interpreted as a single-frame quantum 
+state, linking emergent time concepts \cite{Hartle1983,Rovelli2017} with cyclic and conformal 
+cosmological models \cite{Steinhardt2002,Penrose2010}.
 \end{abstract}
 
 \section{Introduction}
-We outline the singularity problem in general relativity, the entropy challenge in cyclic models,
-and why a closed time geometry naturally sets the endpoints of expansion without ad hoc switches.
+The classical theory of general relativity predicts singularities at the Big Bang and inside 
+black holes, where the equations cease to be valid. Loop Quantum Cosmology (LQC) provides 
+a resolution through quantum corrections that replace singularities with bounces 
+\cite{Ashtekar2006,Bojowald2001}. Other cyclic approaches, such as the ekpyrotic/cyclic 
+scenario \cite{Steinhardt2002}, posit a sequence of universes but often leave the termination 
+of expansion unspecified. Penrose's Conformal Cyclic Cosmology (CCC) \cite{Penrose2010} 
+offers an alternative by identifying the remote future of one aeon with the Big Bang of the 
+next through conformal rescaling. 
+
+The proposal developed here differs in a key way: time itself is treated as a closed arc, 
+with expansion and contraction bounded by its periodicity. This \emph{cyclic 4D-time} ansatz 
+eliminates the need for ad hoc triggers and provides a unified geometric controller for both 
+the bounce and the turnaround.
 
 \section{Framework}
 \subsection{Cyclic Time Ansatz}
-Define periodic cosmic time $\tau\in[0,T)$ with $a(\tau+T)=a(\tau)$, and boundary conditions
+We posit periodic cosmic time $\tau \in [0,T)$ such that
+\[
+a(\tau+T) = a(\tau).
+\]
+The boundary conditions are
 \begin{equation}
-a(0)=a_{\min}>0,\quad \dot a(0)=0,\qquad a(T/2)=a_{\max},\quad \dot a(T/2)=0.
+a(0)=a_{\min}>0, \quad \dot a(0)=0, \qquad a(T/2)=a_{\max}, \quad \dot a(T/2)=0,
 \end{equation}
+where $a_{\min}$ represents the bounce and $a_{\max}$ the turnaround.
 
 \subsection{Effective Friedmann Equation}
-Inspired by Loop Quantum Cosmology, use
+Following the spirit of LQC \cite{Ashtekar2006}, we consider the modified Friedmann equation
 \begin{equation}
-H^2=\left(\frac{\dot a}{a}\right)^2=\frac{8\pi G}{3}\,\rho(a)\left(1-\frac{\rho(a)}{\rho_c}\right)
-+\frac{\Lambda}{3}-\frac{k}{a^2},
+H^2 = \left(\frac{\dot a}{a}\right)^2 = \frac{8\pi G}{3}\,\rho(a)\left(1 - \frac{\rho(a)}{\rho_c}\right)
++ \frac{\Lambda}{3} - \frac{k}{a^2},
 \end{equation}
-with $\rho(a)=\rho_{r0}a^{-4}+\rho_{m0}a^{-3}+\rho_\Lambda$ (toy) and critical density $\rho_c$.
-The $(1-\rho/\rho_c)$ factor generates a bounce at small $a$; $\Lambda<0$ or $k>0$ yields a
-large-$a$ turnaround.
+with $\rho(a)=\rho_{r0}a^{-4}+\rho_{m0}a^{-3}+\rho_\Lambda$ (toy form) and $\rho_c$ the critical density. 
+The factor $(1-\rho/\rho_c)$ generates a bounce at small $a$, while either $\Lambda<0$ or $k>0$ produces 
+a large-$a$ turnaround.
 
 \section{Results (Toy Examples)}
 \subsection{Cyclic Scale Factor}
-Figure~\ref{fig:atau} shows a periodic $a(\tau)$ with bounce and turnaround (toy ansatz).
+Figure~\ref{fig:atau} shows an illustrative periodic $a(\tau)$ with bounce and turnaround.
 
 \begin{figure}[h]
 \centering
@@ -56,7 +73,7 @@ Figure~\ref{fig:atau} shows a periodic $a(\tau)$ with bounce and turnaround (toy
 \end{figure}
 
 \subsection{Effective $H^2(a)$ with Two Turning Points}
-Figure~\ref{fig:h2a} shows a toy effective $H^2(a)$ with a bounce at small $a$ and a turnaround at large $a$.
+Figure~\ref{fig:h2a} shows a toy $H^2(a)$ with both a small-$a$ bounce and a large-$a$ turnaround.
 
 \begin{figure}[h]
 \centering
@@ -66,19 +83,66 @@ Figure~\ref{fig:h2a} shows a toy effective $H^2(a)$ with a bounce at small $a$ a
 \end{figure}
 
 \section{Discussion}
-We compare the cyclic 4D-time controller with Loop Quantum Cosmology bounces, cyclic/ekpyrotic models,
-and Conformal Cyclic Cosmology, highlighting how a closed time geometry can address both the singularity
-and ``end of expansion'' problems in one stroke.
+Compared to standard LQC \cite{Ashtekar2006}, this model retains the quantum bounce but introduces 
+a built-in turnaround through closed time geometry. Unlike CCC \cite{Penrose2010}, which removes 
+contraction via conformal mapping, this proposal preserves contraction and closes the cycle 
+directly in time itself. The model also resonates with emergent-time perspectives such as the 
+Hartle--Hawking wavefunction \cite{Hartle1983} and Rovelli's relational view of time \cite{Rovelli2017}. 
+
+By treating the bounce as a single-frame quantum state, the approach provides an intuitive resolution 
+to the question of why classical time dilation does not apply at the origin of expansion.
 
 \section{Conclusions and Next Steps}
-We sketched a minimal, self-consistent toy model embodying the idea of time as a closed controller loop.
-Future work: derive the effective dynamics from a deeper theory, propose observational discriminants,
-and analyze entropy flow across cycles.
+We have presented a toy model embodying the idea of time as a closed controller loop. This framework 
+unifies bounce and turnaround mechanisms in a geometric ansatz, offering a conceptual alternative to 
+inflationary or purely conformal cyclic models. 
+
+Future work should focus on deriving the effective dynamics from a more fundamental quantum gravity 
+theory, identifying potential observational discriminants (e.g.\ CMB non-Gaussianities, primordial 
+gravitational waves, deviations from $\Lambda$CDM), and analyzing entropy flow across cycles.
 
 \section*{Acknowledgments}
-(Place acknowledgments here.)
+The author thanks the open scientific community for providing freely accessible resources 
+that make independent research possible. Foundational insights from Loop Quantum Cosmology, 
+cyclic cosmology, and conformal cyclic cosmology by A.~Ashtekar, M.~Bojowald, P.~Steinhardt, 
+N.~Turok, and R.~Penrose have provided inspiration for the framing of this note.
 
-\section*{References}
-(Add detailed references here.)
+\begin{thebibliography}{9}
+
+\bibitem{Ashtekar2006}
+A.~Ashtekar, T.~Pawlowski, and P.~Singh,  
+``Quantum nature of the big bang: Improved dynamics,''  
+\emph{Phys. Rev. D}, vol. 74, p. 084003, 2006.  
+doi:10.1103/PhysRevD.74.084003
+
+\bibitem{Bojowald2001}
+M.~Bojowald,  
+``Absence of singularity in loop quantum cosmology,''  
+\emph{Phys. Rev. Lett.}, vol. 86, p. 5227, 2001.  
+doi:10.1103/PhysRevLett.86.5227
+
+\bibitem{Steinhardt2002}
+P.~J. Steinhardt and N.~Turok,  
+``A cyclic model of the universe,''  
+\emph{Science}, vol. 296, pp. 1436–1439, 2002.  
+doi:10.1126/science.1070462
+
+\bibitem{Penrose2010}
+R.~Penrose,  
+\emph{Cycles of Time: An Extraordinary New View of the Universe}.  
+London: Bodley Head, 2010. ISBN: 978-0224080361
+
+\bibitem{Hartle1983}
+J.~B. Hartle and S.~W. Hawking,  
+``Wave function of the Universe,''  
+\emph{Phys. Rev. D}, vol. 28, pp. 2960–2975, 1983.  
+doi:10.1103/PhysRevD.28.2960
+
+\bibitem{Rovelli2017}
+C.~Rovelli,  
+\emph{Reality Is Not What It Seems: The Journey to Quantum Gravity}.  
+Penguin Books, 2017. ISBN: 978-0735213920
+
+\end{thebibliography}
 
 \end{document}
