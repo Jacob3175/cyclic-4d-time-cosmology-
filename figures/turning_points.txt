@@ -1,0 +1,4 @@
+a_min (bounce): 0.241776
+a_max (turnaround): 3.71678
+T_half: 7.24017
+T_full: 14.4803
