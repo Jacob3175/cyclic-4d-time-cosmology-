@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Cyclic 4D-Time Cosmology"
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Powell"
+    given-names: "Jacob L."
+    orcid:
+version: "1.1.0"
+doi: "10.5281/zenodo.16935007"
+date-released: 2025-08-23
+url: "https://github.com/Jacob3175/cyclic-4d-time-cosmology-"
