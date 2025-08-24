@@ -16,7 +16,7 @@
 We propose a conceptual cosmological framework in which the fourth dimension---time---is 
 not infinite, but cyclic and bounded. This closed time geometry provides a natural mechanism 
 for both the initiation of cosmic expansion (the bounce) and its termination (the turnaround), 
-removing the need for external triggers. We sketch an effective Friedmann equation, inspired by 
+removing the need for external triggers. We derive an effective Friedmann equation, inspired by 
 Loop Quantum Cosmology (LQC) \cite{Ashtekar2006,Bojowald2001}, that incorporates quantum 
 corrections to avoid singularities, and show how a large-$a$ turnaround can arise through curvature 
 or an effective negative cosmological term. The bounce is interpreted as a single-frame quantum 
@@ -40,26 +40,45 @@ eliminates the need for ad hoc triggers and provides a unified geometric control
 the bounce and the turnaround.
 
 \section{Framework}
-\subsection{Cyclic Time Ansatz}
-We posit periodic cosmic time $\tau \in [0,T)$ such that
-\[
-a(\tau+T) = a(\tau).
-\]
-The boundary conditions are
+\subsection{Cyclic Time Ansatz (Derived Periodicity)}
+We posit periodic cosmic time $\tau \in [0,T)$ such that $a(\tau+T)=a(\tau)$. Turning points
+occur at $a_{\min}$ (bounce) and $a_{\max}$ (turnaround), where $\dot a=0$.
+From the effective Friedmann equation (Sec.~\ref{sec:effFriedmann}),
 \begin{equation}
-a(0)=a_{\min}>0, \quad \dot a(0)=0, \qquad a(T/2)=a_{\max}, \quad \dot a(T/2)=0,
+\dot a^2 = a^2\Bigg[\frac{8\pi G}{3}\rho(a)\left(1-\frac{\rho(a)}{\rho_c}\right)+\frac{\Lambda}{3}-\frac{k}{a^2}\Bigg]
+\equiv -V_{\rm eff}(a).
 \end{equation}
-where $a_{\min}$ represents the bounce and $a_{\max}$ the turnaround.
+The cycle period is then
+\begin{equation}
+T = 2\int_{a_{\min}}^{a_{\max}}\frac{da}{\sqrt{-V_{\rm eff}(a)}},
+\end{equation}
+which is finite if both turning points exist. A convenient illustrative ansatz is
+\begin{equation}
+a(\tau) = a_{\min}+(a_{\max}-a_{\min})\sin^2\!\Big(\frac{\pi \tau}{T}\Big).
+\end{equation}
 
-\subsection{Effective Friedmann Equation}
-Following the spirit of LQC \cite{Ashtekar2006}, we consider the modified Friedmann equation
+\subsection{Effective Friedmann Equation from a Hamiltonian}
+\label{sec:effFriedmann}
+Following LQC, the effective Hamiltonian constraint is
 \begin{equation}
-H^2 = \left(\frac{\dot a}{a}\right)^2 = \frac{8\pi G}{3}\,\rho(a)\left(1 - \frac{\rho(a)}{\rho_c}\right)
-+ \frac{\Lambda}{3} - \frac{k}{a^2},
+\mathcal{C}_{\rm eff}=-\frac{3}{8\pi G\gamma^2\lambda^2}a\sin^2(\lambda b)+\rho(a)a^3=0,
 \end{equation}
-with $\rho(a)=\rho_{r0}a^{-4}+\rho_{m0}a^{-3}+\rho_\Lambda$ (toy form) and $\rho_c$ the critical density. 
-The factor $(1-\rho/\rho_c)$ generates a bounce at small $a$, while either $\Lambda<0$ or $k>0$ produces 
-a large-$a$ turnaround.
+with Barbero--Immirzi parameter $\gamma$ and area gap $\lambda=\sqrt{\Delta}$.
+This yields the modified Friedmann equation
+\begin{equation}
+H^2=\frac{8\pi G}{3}\rho(a)\left(1-\frac{\rho(a)}{\rho_c}\right)+\frac{\Lambda}{3}-\frac{k}{a^2},
+\quad \rho_c=\frac{3}{8\pi G\gamma^2\lambda^2}.
+\end{equation}
+For $\rho(a)=\rho_{r0}a^{-4}+\rho_{m0}a^{-3}+\rho_\Lambda$:
+
+\paragraph{Bounce condition.} At $a=a_{\min}$, $H=0$ gives $\rho=\rho_c$ and $\ddot a>0$, 
+so the turning point is a stable minimum.
+
+\paragraph{Turnaround condition.} At $a=a_{\max}$, $H=0$ implies
+\begin{equation}
+\frac{8\pi G}{3}\rho(a_{\max})\left(1-\frac{\rho(a_{\max})}{\rho_c}\right)+\frac{\Lambda}{3}-\frac{k}{a_{\max}^2}=0,
+\end{equation}
+linking $a_{\max}$ to observable parameters $(\Omega_{m0},\Omega_{r0},\Omega_{\Lambda0},\Omega_{k0})$.
 
 \section{Results (Toy Examples)}
 \subsection{Cyclic Scale Factor}
@@ -89,17 +108,24 @@ contraction via conformal mapping, this proposal preserves contraction and close
 directly in time itself. The model also resonates with emergent-time perspectives such as the 
 Hartle--Hawking wavefunction \cite{Hartle1983} and Rovelli's relational view of time \cite{Rovelli2017}. 
 
-By treating the bounce as a single-frame quantum state, the approach provides an intuitive resolution 
-to the question of why classical time dilation does not apply at the origin of expansion.
+\paragraph{Bounce as a wavefunction.} In a Wheeler--DeWitt minisuperspace approximation, 
+the universe wavefunction $\Psi(a)$ near $a_{\min}$ can be modeled as a Gaussian sharply 
+peaked at $a_{\min}$, yielding a single-frame quantum state. Since $H=0$ at the bounce, 
+extrinsic curvature vanishes and there is no relative time dilation between comoving observers.
 
 \section{Conclusions and Next Steps}
 We have presented a toy model embodying the idea of time as a closed controller loop. This framework 
 unifies bounce and turnaround mechanisms in a geometric ansatz, offering a conceptual alternative to 
 inflationary or purely conformal cyclic models. 
 
-Future work should focus on deriving the effective dynamics from a more fundamental quantum gravity 
-theory, identifying potential observational discriminants (e.g.\ CMB non-Gaussianities, primordial 
-gravitational waves, deviations from $\Lambda$CDM), and analyzing entropy flow across cycles.
+Future work should focus on deriving the effective dynamics from a fundamental theory of quantum gravity, 
+and on observational predictions. For instance, perturbations can be evolved with
+\begin{equation}
+v_k''+(k^2-\tfrac{z''}{z})v_k=0,\qquad
+\mu_k''+(k^2-\tfrac{a''}{a})\mu_k=0,
+\end{equation}
+to yield scalar/tensor spectra with potential signatures in the CMB and primordial gravitational waves. 
+Entropy flow across cycles also warrants further study.
 
 \section*{Acknowledgments}
 The author thanks the open scientific community for providing freely accessible resources 
