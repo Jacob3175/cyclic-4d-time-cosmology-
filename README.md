@@ -1,5 +1,5 @@
 
-# Cyclic 4D-Time Cosmology (Starter Repo)
+# Cyclic 4D-Time Cosmology
 
 This repository contains a starter paper and figures for a toy cosmological model
 in which the **fourth dimension (time)** is cyclic and bounded. The closed time loop
