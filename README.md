@@ -1,6 +1,6 @@
 # Cyclic 4D-Time Cosmology
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16935007.svg)](https://doi.org/10.5281/zenodo.16935007)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16935007.svg)](https://doi.org/10.5281/zenodo.16938896)
 
 This repository contains LaTeX source, compiled drafts, and reproducible figures for a conceptual cosmological model in which the **fourth dimension (time)** is treated as a bounded, cyclic arc. In this framework, cosmic expansion begins at a quantum bounce, ends at a turnaround, and repeats. The model integrates Loop Quantum Cosmology–style quantum corrections to avoid singularities and introduces a geometric mechanism for large-scale turnaround.  
 
