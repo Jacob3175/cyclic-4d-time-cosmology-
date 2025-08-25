@@ -34,17 +34,21 @@ This repository contains LaTeX source, compiled drafts, and reproducible figures
 
 If you use or build on this work, please cite it as:  
 
-**Powell, J. L. (2025). *Cyclic 4D-Time Cosmology* (Version 1.2.0). Zenodo.**  
-[https://doi.org/10.5281/zenodo.16935007](https://doi.org/10.5281/zenodo.16935007)  
+**Powell, J. L. (2025). *Cyclic 4D-Time Cosmology* (v1.2.0). Zenodo.**  
+- **Latest version (concept DOI):** [https://doi.org/10.5281/zenodo.16935007](https://doi.org/10.5281/zenodo.16935007)  
+- **This release (v1.2.0):** [https://doi.org/10.5281/zenodo.16938896](https://doi.org/10.5281/zenodo.16938896)  
 
-### BibTeX
+### 🔹 APA
+Powell, J. L. (2025). *Cyclic 4D-Time Cosmology* (Version 1.2.0) [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.16938896  
+
+### 🔹 BibTeX
 ```bibtex
-@software{powell2025_cyclic4d,
+@misc{powell2025_cyclic4d,
   author       = {Powell, Jacob L.},
   title        = {Cyclic 4D-Time Cosmology},
-  version      = {1.2.0},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.16935007},
-  url          = {https://doi.org/10.5281/zenodo.16935007}
+  version      = {1.2.0},
+  doi          = {10.5281/zenodo.16938896},
+  url          = {https://doi.org/10.5281/zenodo.16938896}
 }
